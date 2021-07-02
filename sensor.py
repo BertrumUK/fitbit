@@ -435,7 +435,7 @@ class FitbitSensor(SensorEntity):
     @property
     def name(self):
         """Return the name of the sensor."""
-        return self._name
+        return "fitbit_" + self._name
 
     @property
     def state(self):
